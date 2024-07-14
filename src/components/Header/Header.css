@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:black;
+}
+
+.header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 1em;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
