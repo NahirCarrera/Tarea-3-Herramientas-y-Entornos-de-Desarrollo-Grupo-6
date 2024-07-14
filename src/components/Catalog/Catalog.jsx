@@ -38,8 +38,10 @@ export default function Catalog() {
     return (
         <React.Fragment>
             <Header />
+            
             <Container component="main" sx={{ mt: 8, mb: 2, flexGrow: 1 }}>
                 <Grid container spacing={2}>
+                    
                     {products.map(product => (
                         <Grid item xs={12} sm={6} md={4} key={product.id}>
                             <MultiActionAreaCard

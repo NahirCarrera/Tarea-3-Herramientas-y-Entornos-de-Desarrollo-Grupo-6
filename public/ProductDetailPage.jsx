@@ -9,8 +9,8 @@ const products = [
         id: 1,
         title: "Cheesecake",
         description: "Cremoso, con un dulce sabor a queso y galleta de elaboración propia",
-        image: "/cheesecake.jpg",
-        image2: "/cheesecake.jpg",
+        image: "./cheesecake.jpg",
+        image2: "../../cheesecake.jpg",
         price: "3.25",
         ingredients: "Queso, galleta, azúcar, crema",
         nutritionalInfo: "250 kcal por porción"
@@ -19,8 +19,8 @@ const products = [
         id: 2,
         title: "Tarta de Manzana",
         description: "Tarta de fruta elaborada con una masa recubierta de manzana",
-        image: "/tarta.jpg",
-        image2: "/tarta.jpg",
+        image: "../../tarta.jpg",
+        image2: "../../tarta.jpg",
         price: "3.50",
         ingredients: "Manzana, harina, azúcar, canela",
         nutritionalInfo: "300 kcal por porción"
@@ -29,8 +29,8 @@ const products = [
         id: 3,
         title: "Pastel de Chocolate",
         description: "Bizcocho húmedo de chocolate, relleno de una sedosa crema de chocolate de leche",
-        image: "/pastel.jpg",
-        image2: "/pastel.jpg",
+        image: "../../pastel.jpg",
+        image2: "../../pastel.jpg",
         price: "2.50",
         ingredients: "Chocolate, harina, azúcar, mantequilla",
         nutritionalInfo: "350 kcal por porción"
